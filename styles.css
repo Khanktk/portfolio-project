@@ -1,0 +1,161 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive; */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1.cursive-heading{
+    font-size: 4.5rem;
+    font-family: 'Sacramento', cursive;
+}
+h1.monserat-heading{
+    margin: 10px auto 50px;
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#Home{
+    padding: 3% 15% 7%;
+    background-color: #C1F2B0;
+}
+.profile-img{
+    width: 60%;
+    margin-left: 50px;
+}
+/* Navigation bar */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* intro Section */
+
+.mydetail{
+    font-size: 1.7rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Education Section */
+#education16{
+    background-color: #fff;
+    padding: 3% 15% 7%;
+    line-height: 2;
+}
+
+.arrows{
+    color: black;
+}
+
+
+.carousel-item{
+    padding: 7% 15% 20%;
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.degree-logo{
+    padding: 20px 0 0 0;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+.experience-logo{
+    padding: 20px 0 0 0;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+/* Skills */
+#Skills{
+    background-color: #C1F2B0;
+    text-align: center;
+    padding: 3% 15% 7%;
+}
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+    margin-bottom: 20px;
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #04AA6D;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 50%; background-color: #f44336;} /* Red */
+.office-work {width: 85%; background-color: #808080;} /* Dark Grey */
+.skill-heading{
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+
+/* Contact-Me */
+#Contact-Me{
+    text-align: center;
+    background-color: #fff;
+    padding: 10% 15% 7%;
+    line-height: 2;
+}
+
+.tabel , .tabelradius{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+.links{
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+/* fotter */
+
+#footer{
+    text-align: center;
+    
+}
+
+.copyright{
+    background-color: #C1F2B0;
+    padding: 7% 15%;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1028px) {
+    .container-fluid{
+        text-align: center;
+    }
+}

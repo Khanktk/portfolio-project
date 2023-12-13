@@ -1,5 +1,11 @@
-/* font-family: 'Montserrat', sans-serif;
-font-family: 'Sacramento', cursive; */
+/* All styles for this project
+    comment is just for fun
+             .
+             .
+             .
+             .        */
+   /* ***************************************** */
+
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -52,7 +58,7 @@ h1.monserat-heading{
 /* Education Section */
 #education16{
     background-color: #fff;
-    padding: 3% 15% 7%;
+    padding: 3% 10% 7%;
     line-height: 2;
 }
 
@@ -62,9 +68,9 @@ h1.monserat-heading{
 
 
 .carousel-item{
-    padding: 7% 15% 20%;
+    padding: 7% 1% 10%;
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -130,10 +136,8 @@ h1.monserat-heading{
     margin: auto;
     text-align: center;
     padding-top: 50px;
-    border: 1px solid;
-    border-radius: 20%;
+    
 }
-
 
 .links{
     font-size: 1rem;
@@ -156,7 +160,8 @@ h1.monserat-heading{
 }
 
 @media screen and (max-width: 1028px) {
+    
     .container-fluid{
         text-align: center;
-    }
+}
 }
